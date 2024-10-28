@@ -1,0 +1,10 @@
+.nav-link{
+    color: white;
+    font-size: larger;
+    transition: .3s;
+    font-size: larger;
+}
+.nav-link:hover,.active{
+    color: red !important ; 
+    border-bottom: 2px red solid;
+}
