@@ -1,0 +1,48 @@
+.landing{
+    height: 100vh;
+    background-color: #777;
+}
+
+.move-l-t-r{
+    animation: move-l-t-r 5s linear 0s infinite alternate ;
+
+}
+@keyframes move-l-t-r{
+    0%{
+        left: 0%;
+        
+    }
+    20%{
+        left: 20%;
+    }
+    40%{
+        left: 40%;
+    }
+    60%{
+        left: 60%;
+    }
+    80%{
+        left: calc(80%-50%);
+    }
+    100%{
+        left: 0%;
+    }
+    
+}
+
+.move-t-t-b{
+    animation: move-t-t-b 5s linear 0s infinite alternate ;
+
+}
+@keyframes move-t-t-b{
+    0%{
+        top:0;
+    }
+    50%{
+        top:50%;
+    }
+    100%{
+        top:0;
+    }
+    
+}
